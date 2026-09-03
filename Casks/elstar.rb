@@ -1,6 +1,6 @@
 cask "elstar" do
-  version "1.0.4"
-  sha256 "dbd8bb97f3c83e1c7c76de5e38dab803f73be3be3056faa45792505c28ef51ee"
+  version "1.0.5"
+  sha256 "cbbb1165b25f27c1540947068a807b336adfc23626c64d9c2c793cfa1d5270f7"
 
   url "https://github.com/elstar-dev/elstar/releases/download/v#{version}/elstar-#{version}-macos.tar.gz"
   name "elstar"
