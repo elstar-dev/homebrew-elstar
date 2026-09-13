@@ -1,6 +1,6 @@
 cask "elstar" do
-  version "1.0.8"
-  sha256 "09c0d5e65d8e01f5e26e3b457cc39c7107bb2ce7a691603e56279fad4715e3a7"
+  version "1.0.9"
+  sha256 "dba185801bff8fe6e6681dcdea6b6f8742f6f190c947c5cb4bf80367058f1296"
 
   url "https://github.com/elstar-dev/elstar/releases/download/v#{version}/elstar-#{version}-macos.tar.gz"
   name "elstar"
@@ -12,7 +12,7 @@ cask "elstar" do
   binary "elstar"
 
   caveats <<~EOS
-    Activate your elstar license:
+    Your 7-day trial starts automatically on first use. After the trial, activate:
       elstar license activate <your-license-key>
     Get a license at https://elstar.dev
   EOS
